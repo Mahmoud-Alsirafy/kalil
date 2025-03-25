@@ -1,0 +1,521 @@
+* {
+  font-family: "Poppins", sans-serif;
+  overflow-x: hidden;
+}
+a {
+  text-decoration: none !important;
+  color: #444243 !important;
+}
+.head {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../images/Desktop - 3.png");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  position: relative !important;
+}
+.head .nav {
+  justify-content: space-between;
+  padding-top: 10px;
+  align-items: center !important;
+}
+.head .icons i {
+  padding: 0px 15px;
+  font-size: 20px;
+  margin-top: 17px;
+  cursor: pointer;
+}
+.head .boot h5 {
+  color: #444243;
+  background-color: #fff;
+  padding: 15px;
+  padding-right: 40px !important;
+  text-align: center;
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+}
+.head .boot h5 .arrow i {
+  position: absolute;
+  right: 10px;
+  top: 37px;
+}
+
+/* content */
+.content div h1 {
+  font-size: 80px;
+  font-weight: 700;
+}
+.content div h1 span {
+  font-size: 80px;
+  font-weight: 700;
+}
+.content div h6 {
+  width: 400px;
+  color: #c1c1c4;
+  line-height: 1.5;
+}
+.content div div .Get {
+  background-color: #fff;
+  color: #444243;
+  font-size: 18px;
+  padding: 18px 20px;
+  border-radius: 50px;
+  border: none;
+  margin-right: 20px;
+}
+.content div div .Learn {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  font-size: 18px;
+  padding: 18px 20px;
+  border-radius: 50px;
+  border: 1px solid #fff;
+  margin-right: 20px;
+}
+
+/* topics */
+
+#topics {
+  background-image: url("../images/Frame 9 (1).png");
+  background-size: cover;
+}
+#topics .topic {
+  margin-top: 100px;
+}
+#topics .topic .intro h3 {
+  font-size: 30px;
+  font-weight: 600;
+}
+#topics .topic .intro img {
+  font-size: 30px !important;
+}
+.view {
+  background-color: #067d73 !important;
+  padding: 10px 20px;
+  border: none;
+  color: #fff;
+  border-radius: 10px;
+}
+
+/* health */
+
+#health {
+  background-color: #fcfff1;
+}
+#health .row {
+  margin: 100px 70px !important;
+}
+#health .row .health button {
+  background-color: #067d73 !important;
+  color: #fff;
+  font-weight: bold;
+  font-size: 18px;
+  width: 190px;
+  height: 40px;
+  border: none;
+  border-radius: 10px;
+}
+#health .row .health * {
+  margin-top: 30px;
+}
+
+/* ai */
+
+#ai {
+  background-color: #fcfff1;
+  margin-bottom: 50px;
+}
+
+#ai .header * {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin-top: 20px;
+}
+
+#ai .header .Start {
+  background-color: #067d73 !important;
+  color: #fff;
+  font-weight: bold;
+  font-size: 18px;
+  width: 190px;
+  height: 40px;
+  border: none;
+  border-radius: 10px;
+}
+#ai .header .Discover {
+  background-color: #fff !important;
+  color: #000;
+  font-weight: bold;
+  font-size: 18px;
+  width: 230px;
+  height: 40px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+.ai_content {
+  background-color: #b5cda9;
+  padding: 15px 10px;
+  border-radius: 20px;
+}
+.ai_content * {
+  margin-top: 20px;
+}
+.ai_content i {
+  border-radius: 10px;
+}
+
+/*  */
+
+.answer .answer {
+  background-color: #fcfcfc;
+  border: 1px solid #ccc;
+  padding: 20px;
+  padding-top: 25px;
+  border-radius: 10px;
+  align-items: center;
+}
+/* contact */
+
+.contact {
+  padding: 200px 50px;
+  overflow-y: hidden;
+}
+
+.contact div h1 {
+  font-size: 90px;
+  font-weight: bolder;
+}
+
+.contact form {
+  background-color: #fff;
+  height: max-content;
+  padding: 35px 20px;
+  border-radius: 20px;
+  line-height: 3;
+}
+
+.contact form .name input {
+  width: 400px;
+  background-color: #c8e1de;
+  border: none;
+  height: 40px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+.contact form .name textarea {
+  width: 400px;
+  background-color: #c8e1de;
+  border: none;
+  height: 100px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+.contact form button {
+  background-color: #067d73 !important;
+  color: #fff;
+  font-weight: bold;
+  font-size: 16px;
+  width: 400px;
+  border: none;
+  border-radius: 10px;
+  margin-top: 30px;
+}
+
+/* footer */
+
+footer {
+  background-image: url("../images/Desktop - 4.png");
+
+  background-size: cover;
+  background-position: center;
+  height: max-content;
+}
+
+footer ul {
+  line-height: 2;
+}
+
+footer ul li {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+footer .media div img {
+  width: 70px;
+}
+footer .media div i {
+  background-color: #d9d9d9;
+  width: 50px;
+  height: 50px;
+  text-align: center !important;
+  padding-top: 12px;
+  overflow-y: hidden;
+  font-size: 25px;
+  border-radius: 60%;
+  border: 1px solid #9b9f9f;
+}
+
+/* register */
+
+.login {
+  border: none;
+}
+
+/* chat */
+
+#chat {
+    height: 100vh;
+    padding-top: 100px;
+  background-color: black;
+  background-image: radial-gradient(
+      circle at top right,
+      rgba(255, 255, 255, 0.3) 10%,
+      transparent 30%
+    ),
+    radial-gradient(
+      circle at bottom left,
+      rgba(255, 255, 255, 0.3) 10%,
+      transparent 30%
+    );
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fff;
+}
+#chat .left-sec {
+    width: 30%;
+    text-align: center !important; 
+}
+#chat .left-sec .title {
+    background-color: #202020;
+    padding: 20px 40px;
+    border-radius: 30px;
+}
+#chat .left-sec img  {
+    width: 50px;
+}
+
+#chat .left-sec .enter{
+    background-color: #202020;
+    padding: 10px;
+    margin-top: 30px;
+    padding-top: 350px;
+    border-radius: 30px;
+}
+#chat .left-sec .enter input::placeholder{
+  color: #fff;
+}
+#chat .left-sec .enter input{
+    background-color: #33b0b6;
+    width: 100%;
+    border: none;
+    height: 50px;
+    border-radius: 10px;
+    outline: none;
+    padding-left: 10px;
+    color: #fff;
+}
+#chat .left-sec .enter span i{
+    position: absolute !important;
+    background-color: #fff;
+    color: #000;
+    font-size: 22px;
+    left: 450px;
+    margin-top: 4px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+
+/*  */
+
+#chat .right-sec{
+    text-align: center !important;
+    background-color: #202020;
+    padding: 50px 50px 0px 50px;
+    border-radius: 10px;
+
+}
+
+
+
+#chat .right-sec h3, p{
+  width: 400px;
+  justify-content: center !important;
+ 
+}
+
+#chat .right-sec div .iconic{
+  background-color: #424242;
+  padding: 20px 40px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column !important;
+}
+#chat .right-sec div .iconic i{
+  color: #33b0b6;
+  font-size: 30px;
+}
+
+/*  */
+
+#chat .right-sec .feel{
+  background-color: #202020;
+  padding: 10px;
+ padding-top: 100px;
+  border-radius: 30px;
+}
+#chat .right-sec .feel input::placeholder{
+color: #666666;
+}
+#chat .right-sec .feel input{
+  background-color: #fff;
+  width: 100%;
+  border: none;
+  height: 50px;
+  border-radius: 10px;
+  outline: none;
+  padding-left: 10px;
+  color: #fff;
+}
+#chat .right-sec .feel span i{
+  position: absolute !important;
+  background-color: #33b0b6;
+  color: #000;
+  font-size: 22px;
+  right: 180px;
+  margin-top: 4px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+/* register */
+
+.register{
+  background-image: url("../images/Desktop - 13.png");
+  background-size: cover;
+  background-position: center; 
+  height: 100vh;
+}
+.register div .logo{
+  width: 80px !important;
+}
+.register div .login{
+  background-color: #33b0b6 !important;
+  font-size: 25px;
+  margin-right: 20px;
+  padding: 4px 30px !important;
+  border: none;
+  color: #fff !important;
+  border-radius: 10px;
+}
+
+
+
+#content div .doctor{
+  width: 557px;
+  margin-top: 88px;
+}
+
+#content div h6{
+  color:#0b4074 ;
+  width: 350px;
+}
+
+#content div p{
+  color:#274089 ;
+}
+
+#content div .check div{
+  align-items: center !important;
+  border: 1px solid #ccc;
+  border-radius: 50px;
+  padding: 0px 30px;
+  padding-top: 5px; 
+}
+#content div .check div input{
+  right: -10px;
+  position: relative !important;
+  top: -5px;
+}
+#content div form label{
+  color: #173281;
+  font-weight: 550;
+  margin:10px 0px;
+}
+
+#content div form input{
+  background-color: #e1ebe4 !important;
+  padding: 10px 20px;
+  border: none;
+  outline: none;
+  border-radius: 30px;
+}
+#content div form .submit{
+  background-color: #33b0b6 !important;
+  border: none;
+  width: 100%;
+  border-radius: 30px;
+  margin-top: 20px;
+  color: #fff;
+  padding: 10px 0px;
+  font-size: 20px;
+}
+
+
+/* login */
+
+.log{
+  width: 150px;
+  margin: 50px 0px 0px 50px;
+}
+
+#login .info {
+  margin: 50px 0px 0px 50px;
+}
+#login .info h1{
+  color: #0b4074;
+  width: 400px;
+}
+
+#login .info h5{
+  color: #6b8ca6;
+  width: 300px;
+}
+
+#login div .doctor{
+  width: 557px;
+ margin-top: 52px;
+}
+
+#login .info form input{
+
+  background-color: #e1ebe4 !important;
+  padding: 20px 10px 20px 50px;
+  border: none;
+  outline: none;
+  border-radius: 15px;
+}
+
+#login .info form label{
+  color: #173281;
+  font-weight: 550;
+  margin:10px 0px;
+ position: relative;
+ top: 55px;
+ left: 20px;
+}
+
+#login .info form .submit{
+  background-color: #33b0b6 !important;
+  border: none;
+  width: 100%;
+  border-radius: 30px;
+  margin-top: 20px;
+  color: #fff;
+  padding: 10px 0px;
+  font-size: 20px;
+}
