@@ -428,19 +428,21 @@ color: #666666;
 #content div p{
   color:#274089 ;
 }
-
-#content div .check div{
+#content div form .check >*{
   align-items: center !important;
-  border: 1px solid #ccc;
-  border-radius: 50px;
-  padding: 0px 30px;
-  padding-top: 5px; 
+  
+  /* background-color: #000; */
 }
-#content div .check div input{
-  right: -10px;
+#content div form .check label{
+  color: #173281 !important;
+  /* margin-top: 5px !important; */
+}
+
+#content div form .check input{
   position: relative !important;
-  top: -5px;
+  top: -13px !important;
 }
+
 #content div form label{
   color: #173281;
   font-weight: 550;
@@ -467,14 +469,19 @@ color: #666666;
 
 
 /* login */
-
-.log{
-  width: 150px;
-  margin: 50px 0px 0px 50px;
+.all{
+  background-image: url("../images/Desktop - 14.png");
+  background-size: cover;
+  background-position: center; 
+  height: 100vh;
 }
+  .log{
+    width: 150px;
+    padding: 50px 0px 0px 50px;
+  }
 
 #login .info {
-  margin: 50px 0px 0px 50px;
+  padding: 50px 0px 0px 50px;
 }
 #login .info h1{
   color: #0b4074;
@@ -488,7 +495,11 @@ color: #666666;
 
 #login div .doctor{
   width: 557px;
- margin-top: 52px;
+ margin-top: 80px;
+}
+
+#login .info form{
+  padding: 50px 0px;
 }
 
 #login .info form input{
@@ -509,13 +520,43 @@ color: #666666;
  left: 20px;
 }
 
+#login .info form .buttons{
+  padding: 10px;
+  overflow-y: hidden !important;
+}
+
 #login .info form .submit{
   background-color: #33b0b6 !important;
   border: none;
-  width: 100%;
+  width: 35%;
   border-radius: 30px;
   margin-top: 20px;
   color: #fff;
   padding: 10px 0px;
   font-size: 20px;
+  transition: 0.3s;
+}
+
+#login .info form .submit:hover{
+  transform: 0.5s;
+  transform: scale(1.1);
+}
+
+#login .info .reg{
+  background-color: transparent !important;
+  border: none;
+  width: 35%;
+  border-radius: 30px;
+  margin-top: 20px;
+  color: #000 !important;
+  padding: 10px 0px;
+  font-size: 20px;
+  transition: 0.3s;
+  text-align: center !important; 
+  border: 1px solid #ccc;
+}
+
+#login .info .reg:hover{
+  transform: 0.5s;
+  transform: scale(1.1);
 }
